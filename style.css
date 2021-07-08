@@ -4,16 +4,24 @@
 
 .black {
   background-color: black;
+  display: inline-block;
+  border: 1px solid black;
 }
 
 .yellow {
   background-color: yellow;
+  display: inline-block;
+  border: 1px solid black;
 }
 
 .green {
   background-color: green;
+  display: inline-block;
+  border: 1px solid black;
 }
 
 .blue {
   background-color: blue;
+  display: inline-block;
+  border: 1px solid black;
 }
