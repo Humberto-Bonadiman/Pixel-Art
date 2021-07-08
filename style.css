@@ -1,27 +1,28 @@
 .color {
   border: 1px solid black;
+  display: inline-block;
 }
 
-.black {
+.selected {
   background-color: black;
-  display: inline-block;
-  border: 1px solid black;
 }
 
 .yellow {
   background-color: yellow;
-  display: inline-block;
-  border: 1px solid black;
 }
 
 .green {
   background-color: green;
-  display: inline-block;
-  border: 1px solid black;
 }
 
 .blue {
   background-color: blue;
-  display: inline-block;
+}
+
+.pixel {
+  background-color: white;
+  width: 40px;
+  height: 40px;
   border: 1px solid black;
+  display: inline-block;
 }
