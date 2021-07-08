@@ -7,7 +7,7 @@
   border-radius: 3px;
 }
 
-.selected {
+.selected, .black{
   background-color: black;
 }
 
