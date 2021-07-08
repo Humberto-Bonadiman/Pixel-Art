@@ -1,6 +1,10 @@
 .color {
   border: 1px solid black;
   display: inline-block;
+  margin: 5px;
+  width: 30px;
+  height: 30px;
+  border-radius: 3px;
 }
 
 .selected {
@@ -25,4 +29,5 @@
   height: 40px;
   border: 1px solid black;
   display: inline-block;
+  margin: 3px;
 }
