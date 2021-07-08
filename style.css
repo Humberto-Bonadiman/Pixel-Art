@@ -1,3 +1,19 @@
 .color {
   border: 1px solid black;
 }
+
+.black {
+  background-color: black;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
