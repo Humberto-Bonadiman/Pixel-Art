@@ -4,7 +4,8 @@ const yellowColor = document.querySelector('.yellow');
 const greenColor = document.querySelector('.green');
 const blueColor = document.querySelector('.blue');
 const selectedColor = document.querySelector('.selected');
-const selectPixel = document.querySelectorAll('.pixel');
+const selectPixel = document.querySelectorAll(".pixel");
+const pixelBoard = document.querySelector('#pixel-board');
 
 function handleChangeColor(event) {
   const colorElement = document.querySelector('.selected');
@@ -18,16 +19,13 @@ greenColor.addEventListener('click', handleChangeColor);
 blueColor.addEventListener('click', handleChangeColor);
 
 // 8.
-/* function setChangeColor() {
-  let selectedButtonColor = document.querySelectorAll(".color");
-  for (let index = 0; index < selectedButtonColor.length; index += 1) {
-    selectedButtonColor[index].addEventListener('click', function() {
-      selectedButtonColor[index].classList.remove('selected');
-      event.target.classList.add('selected');
-    })
-  }
+
+function setPixelColor (event) {
+  let selection = document.querySelector('.selected');
+  let selectionColor = window.getComputedStyle(selection).getPropertyValue("background-color");
+  event.target.style.backgroundColor = selectionColor
 }
-setChangeColor(); */
+document.querySelector('#pixel-board').addEventListener('click', setPixelColor)
 
 // 9.
 function buttonClear(buttonName) {
