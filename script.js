@@ -3,8 +3,7 @@ const blackColor = document.querySelector('.black');
 const secondColor = document.querySelector('.second');
 const thirdColor = document.querySelector('.third');
 const fourthColor = document.querySelector('.fourth');
-/* const selectedColor = document.querySelector('.selected');
-const selectPixel = document.querySelectorAll('.pixel'); */
+const main = document.querySelector('main');
 const pixelBoard = document.querySelector('#pixel-board');
 const boardSize = document.querySelector('#board-size');
 const generateBoard = document.querySelector('#generate-board');
@@ -16,7 +15,7 @@ thirdColor.style.backgroundColor = `rgb(${color()}, ${color()}, ${color()})`;
 fourthColor.style.backgroundColor = `rgb(${color()}, ${color()}, ${color()})`;
 
 function createPixelBoard(pixel) {
-  document.body.appendChild(pixelBoard);
+  main.appendChild(pixelBoard);
   for (let index = 1; index <= pixel; index += 1) {
     const div = document.createElement('div');
     pixelBoard.appendChild(div);
