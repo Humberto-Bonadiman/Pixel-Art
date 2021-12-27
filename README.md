@@ -21,7 +21,7 @@ Após cada um dos passos, haverá um exemplo do comando a ser digitado para faze
 2. Entre no diretório que acabou de criar e depois clone o projeto:
 ```javascript
   cd projetos-humberto
-  git clone git@github.com:Humberto-Bonadiman/Project-pixel-art-Trybe.git
+  git clone git@github.com:Humberto-Bonadiman/Pixel-Art.git
 ```
 
 3. Abra o diretório do projeto clonado e dê duplo clique no arquivo index.html e o projeto vai abrir em seu navegador, não é necessário instalar nada mais.
@@ -29,7 +29,7 @@ Após cada um dos passos, haverá um exemplo do comando a ser digitado para faze
 ---
 
 <h2>Ilustração de funcionamento</h2>
-<img src="/sd-014-b-project-pixels-art/Images/Gif_funcionamento_pixel_art.gif" alt="Funcionamento pixel art" />
+<img src="/Images/Gif_funcionamento_pixel_art.gif" alt="Funcionamento pixel art" />
 
 ---
 
