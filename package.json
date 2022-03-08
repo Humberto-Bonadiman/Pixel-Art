@@ -15,13 +15,17 @@
     "stylelint": "13.8.0",
     "stylelint-config-standard": "20.0.0"
   },
+  "homepage": "https://humberto-bonadiman.github.io/Pixel-Art/",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "cypress run",
     "lint": "eslint --no-inline-config --ext .js,.jsx --no-error-on-unmatched-pattern -c .eslintrc.json .",
     "lint:styles": "stylelint **/*.css --config .stylelintrc.json --ignore-disables --allow-empty-input",
     "cypress:open": "cypress open"
   },
   "dependencies": {
-    "eslint-config-trybe-fundamentals": "1.1.0"
+    "eslint-config-trybe-fundamentals": "1.1.0",
+    "gh-pages": "^3.2.3"
   }
 }
